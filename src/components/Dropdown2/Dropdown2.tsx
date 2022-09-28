@@ -1,10 +1,8 @@
-const Dropdown2 = ({children}:any) => {
-    
-  return (
-    <>
-    {children}
-    </>
-  )
-}
+// const Dropdown2 = (props: { children: any; visibility: any }) => {
+//   console.log(props.children);
+//   return <article>{props.children && props.visibility}</article>;
+// };
 
-export default Dropdown2
+// export default Dropdown2;
+
+import "";
