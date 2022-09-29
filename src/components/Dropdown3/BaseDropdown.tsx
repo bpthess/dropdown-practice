@@ -3,7 +3,7 @@ import { useState } from "react";
 const BaseDropdown = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const items = ["banana", "apple", "orange", "pear", "grape", "berry"];
+  const items = ["aaa", "bbb", "ccc", "ddd", "eee", "fff"];
 
   return (
     <div className="dropdown-wrapper">
@@ -11,7 +11,6 @@ const BaseDropdown = () => {
         onClick={() => {
           setShowDropdown(!showDropdown);
         }}
-        className="trigger-button"
       >
         버튼
       </button>
