@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavItemWrapper } from "./styled";
 
-const NavItem = ({ icon }: any, { children }: any) => {
+const NavItem = ({ icon, children }: any) => {
   const [navItemOpen, setNavItemOpen] = useState(false);
 
   return (

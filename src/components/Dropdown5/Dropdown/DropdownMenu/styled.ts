@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Dropdown = styled.div`
   position: absolute;
   top: 58px;
+  right: 58px;
   width: 300px;
   transform: translateX(-45%);
   background-color: var(--bg);

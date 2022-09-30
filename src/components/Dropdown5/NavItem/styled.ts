@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavItemWrapper = styled.li`
-  width: calc(var(--nav-size) * 0.8);
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

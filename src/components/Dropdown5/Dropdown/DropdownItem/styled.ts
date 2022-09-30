@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const menuItem = styled.div`
+export const MenuItem = styled.a`
   height: 50px;
   display: flex;
   align-items: center;
@@ -8,7 +8,7 @@ export const menuItem = styled.div`
   transition: background 200;
   padding: 0.5rem;
 
-  & .menu-item:hover {
+  & :hover {
     background-color: #525357;
   }
 `;
